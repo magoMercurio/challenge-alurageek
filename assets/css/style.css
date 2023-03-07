@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* PARA USAR MEDIDA REM DE MANERA RESPONSIVA */
+    font-size:  62.5%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+background-color: #E5E5E5;
+
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 32px 0px;
+}
+
+.header-logo {
+    background-image: url("../img/Logo.png");
+    width: 176px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+.header-contain {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-search {
+    width: 393px;
+    height: 40px;
+    text-align: left;
+    padding-left: 5px;
+background-color: #E5E5E5;
+
+}
+
+.input-label-search img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    right: 25px;
+}
+
+.btn-login {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+border: 1px solid #2A7AE4;
+background-color: #E5E5E5;
+width: 182px;
+height: 50px;
+
+}
+
+.btn-login a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2A7AE4;
+}
+
+.header-banner {
+    background-image: url("../img/Hero.png");
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    padding: 16px 32px;
+}
+
+.header-banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 10px ;
+}
+
+.header-banner-contain h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #ffffff;
+}
+.header-banner-contain p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.header-banner__btn {
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    background-color: #2A7AE4;
+    width: 129px;
+    height: 51px;
+    margin: 16px;
+}
+
+.btn-consolas {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* ----------MAIN----------- */
+
+.main {
+    background-color: #F5F5F5;
+}
+
+.product-cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+picture {
+    background-color: black;
+}
