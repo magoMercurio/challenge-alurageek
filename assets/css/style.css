@@ -4,15 +4,66 @@
     padding: 0;
 }
 
+:root {
+    --font-family-body: 'Raleway', sans-serif;
+
+
+  --font-weigth-input: 300;
+
+  --font-size-logo: 28px;
+  --font-size-card-title: 28px;
+  --font-size-input-label: 20px;
+  --font-size-button: 22px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 22px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-button: 28px;
+
+  --primary-color: #0071ea;
+  --secondary-color: #d6eaff;
+  --contrast-dark-color: #4d4d4d;
+
+  --contrast-light-color: #fff;
+  --warning-color: #df2525;
+  --success-color: #047900;
+  --transparency-color: #4d4d4d33;
+
+  --shadow: 0 5px 10px #55a6ff38;
+}
+  
+
+
 html {
     /* PARA USAR MEDIDA REM DE MANERA RESPONSIVA */
     font-size:  62.5%;
 }
 
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    font-family: var(--font-family-body);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    width: 100vw;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 header {
     display: flex;
     flex-direction: column;
-background-color: #E5E5E5;
+background-color: #ffffff;
 
 }
 
@@ -20,7 +71,7 @@ background-color: #E5E5E5;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 32px 0px;
+    padding: 16px 0px;
 }
 
 .header-logo {
@@ -29,9 +80,9 @@ background-color: #E5E5E5;
     height: 50px;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-right: 15px;
     
 }
-
 
 .header-contain {
     display: flex;
@@ -49,7 +100,11 @@ background-color: #E5E5E5;
     height: 40px;
     text-align: left;
     padding-left: 5px;
-background-color: #E5E5E5;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+    border-style: none;
+    font-family: var(--font-family-body);
+    color: #a2a2a2;
 
 }
 
@@ -63,29 +118,34 @@ background-color: #E5E5E5;
 
 .btn-login {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px;
-gap: 10px;
-border: 1px solid #2A7AE4;
-background-color: #E5E5E5;
-width: 182px;
-height: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    border: 1px solid #2A7AE4;
+    background-color: #ffffff;
+    width: 182px;
+    height: 50px;
 
 }
 
 .btn-login a {
     text-decoration: none;
     font-size: 1.6rem;
+    font-style: normal;
     font-weight: 400;
     color: #2A7AE4;
+    line-height: 19px;
+    font-family: var(--font-family-body);
+
 }
 
 .header-banner {
     background-image: url("../img/Hero.png");
     background-position: center ;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 352px;
     display: flex;
     flex-direction: column;
@@ -108,12 +168,16 @@ height: 50px;
     font-size: 52px;
     line-height: 61px;
     color: #ffffff;
+    font-family: var(--font-family-body);
 }
+
 .header-banner-contain p {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 2.2rem;
     line-height: 26px;
     color: #ffffff;
+    font-family: var(--font-family-body);
+
 }
 
 .header-banner__btn {
@@ -134,18 +198,44 @@ height: 50px;
     font-size: 1.6rem;
     font-weight: 400;
     color: #ffffff;
+    font-family: var(--font-family-body);
+
 }
 
 /* ----------MAIN----------- */
 
 .main {
     background-color: #F5F5F5;
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.product {
+    margin: 15px;
+}
+
+.product-contain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
 .product-cards-container {
     display: flex;
     flex-direction: row;
 }
+
+.products-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
 
 picture {
     background-color: black;
