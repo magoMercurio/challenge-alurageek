@@ -1,0 +1,116 @@
+
+a {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header-contain {
+  flex-direction: row;
+  width:fit-content;
+}
+
+.input-search {
+  display: flex;
+  width: 272px;
+}
+
+.searchBar input::placeholder {
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 16px;
+  color: #A2A2A2;
+  padding-left: 15px;
+}
+
+.input-label-search img {
+  right: 80px;
+}
+
+.btn-login a {
+  font-weight: 600;
+font-size: 1.4rem;
+}
+
+.header-banner {
+  height: 352px;
+}
+
+.header-banner-container {
+  padding: 32px;
+}
+
+.header-banner-contain h1 {
+  font-size: 5.2rem;
+  line-height: 61px;
+}
+
+.header-banner-contain p {
+  font-weight: 400;
+font-size: 2.2rem;
+line-height: 26px;
+}
+
+.main {
+  margin: 0 32px 0 32px;
+}
+
+.container {
+  padding-top: 32px;
+}
+
+.product-header__link a {
+  font-size: 1.6rem;
+  line-height: 19px;
+}
+
+.card {
+  width: 164px;
+  height: 252px;
+}
+
+.card-img-contain {
+  width: 164px;
+}
+
+.card-img-contain__product {
+  width: 164px;
+}
+
+.card-link a {
+  font-size: 1.6rem;
+  line-height: 19px;
+}
+
+.contact {
+  height: 364px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px;
+}
+
+.contact-contain {
+  display: flex;
+  flex-direction: column;
+  width: 254px;
+}
+
+.contact-list-container__item {
+  text-align: left;
+}
+
+.formulario {
+  margin-top: 0;
+  margin-left: 40px;
+  width: 434px;
+}
+
+.formulario p {
+  text-align: left;
+  margin: 0;
+}
