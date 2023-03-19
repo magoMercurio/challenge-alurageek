@@ -140,8 +140,8 @@
   .button {
     display: block;
     background-color: var(--primary-color);
-    border-radius: 7px;
-    width: 100%;
+    width: 133px;
+    height: 40px;
     margin-top: 1rem;
     max-width: 20rem;
     padding: 1.125rem;
@@ -168,7 +168,3 @@
   .simple-button--edit {
     color: var(--success-color);
   }
-  
-
-
-    /* te quedaste val;idando el formulario */

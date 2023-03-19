@@ -8,18 +8,18 @@
     --font-family-body: 'Raleway', sans-serif;
 
 
-  --font-weigth-input: 300;
+  --font-weigth-input: 400;
 
   --font-size-logo: 28px;
   --font-size-card-title: 28px;
-  --font-size-input-label: 20px;
-  --font-size-button: 22px;
+  --font-size-input-label: 1.2rem;
+  --font-size-button: 1.4rem;
   --font-size-form-fieldset: 22px;
   --font-size-table-header: 22px;
   --font-size-modal-title: 28px;
   --font-size-modal-button: 28px;
 
-  --primary-color: #0071ea;
+  --primary-color: #2A7AE4;;
   --secondary-color: #d6eaff;
   --contrast-dark-color: #4d4d4d;
 
@@ -41,7 +41,7 @@ html {
 body {
     box-sizing: border-box;
     background-color: #F5F5F5;
-    cursor: pointer;
+ 
     font-family: var(--font-family-body);
     margin: 0;
     padding: 0;
@@ -57,7 +57,25 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    font-weight: 700;
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 16px;
+    color: #2A7AE4; 
+}
+a:visited {
+    color: #2A7AE4;
+    
+}
+
+h2 {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 26px;
+    color: #464646;
 }
 
 header {
@@ -71,31 +89,33 @@ background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 16px 0px;
+    padding: 16px;
 }
 
 .header-logo {
     background-image: url("../img/Logo.png");
-    width: 176px;
-    height: 50px;
-    background-size: contain;
+    width: 150px;
+    background-position: center;
+    background-size:contain;
     background-repeat: no-repeat;
-    margin-right: 15px;
-    
+    text-align: center;
 }
 
 .header-contain {
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
+    width: 300px;
 }
 
 .searchBar {
     display: flex;
     flex-direction: row;
     align-items: center;
+   /*  padding-right: 135px; */
 }
 
 .input-search {
+    display: none;
     width: 393px;
     height: 40px;
     text-align: left;
@@ -105,54 +125,52 @@ background-color: #ffffff;
     border-style: none;
     font-family: var(--font-family-body);
     color: #a2a2a2;
-
 }
 
 .input-label-search img {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     top: 3px;
-    right: 25px;
+    margin-left: 40px;
+    /* right: 25px; */
 }
 
-.btn-login {
+
+.btn-login a {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 16px;
     gap: 10px;
     border: 1px solid #2A7AE4;
     background-color: #ffffff;
-    width: 182px;
-    height: 50px;
-
-}
-
-.btn-login a {
+    width: 133px;
+    height: 40px;
+    text-align: center;
     text-decoration: none;
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     color: #2A7AE4;
-    line-height: 19px;
+    line-height: 16px;
     font-family: var(--font-family-body);
-
+    
 }
 
 .header-banner {
-    background-image: url("../img/Hero.png");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../img/Hero.png");
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 352px;
+    height: 192px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-content: flex-start;
-    padding: 16px 32px;
+    padding: 16px 16px;
+    gap: 16px;
 }
 
 .header-banner-container{
@@ -160,46 +178,47 @@ background-color: #ffffff;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding-left: 10px ;
+    gap: 8px;
 }
 
 .header-banner-contain h1 {
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
-    color: #ffffff;
-    font-family: var(--font-family-body);
-}
-
-.header-banner-contain p {
     font-weight: 700;
     font-size: 2.2rem;
     line-height: 26px;
     color: #ffffff;
     font-family: var(--font-family-body);
-
 }
 
-.header-banner__btn {
-        display: flex;
+.header-banner-contain p {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 16px;
+    color: #ffffff;
+    font-family: var(--font-family-body);
+    padding-top: 10px;
+}
+
+.btn-consolas {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 16px;
     gap: 10px;
     background-color: #2A7AE4;
-    width: 129px;
-    height: 51px;
+    width: 119px;
+    height: 40px;
     margin: 16px;
-}
-
-.btn-consolas {
     text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 16px;
     color: #ffffff;
     font-family: var(--font-family-body);
 
+}
+.btn-consolas:visited {
+    color:#ffffff;
 }
 
 /* ----------MAIN----------- */
@@ -211,6 +230,11 @@ background-color: #ffffff;
     flex-direction: column;
     overflow: hidden;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
 
 .product {
     margin: 15px;
@@ -220,23 +244,140 @@ background-color: #ffffff;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-between;
-}
-
-.product-cards-container {
-    display: flex;
-    flex-direction: row;
+    align-content: flex-start;
 }
 
 .products-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 8px;
+    padding-bottom: 16px ;
 }
 
+.trash-icon {
+    display: none;
+}
 
+.edit-icon {
+    display: none;
+}
 
+.product-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
 
-picture {
-    background-color: black;
+.card {
+    width: 156px;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.card-img-contain {
+    width: 156px;
+    height: 174px;
+    background-image: url("../img/products/unsplash_0POwK6iAiRQ.png");
+    background-position: center ;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.card-productName {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 16px;
+    color: #464646;
+}
+
+.card-price {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color: #464646;
+}
+
+.card-link a {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 16px;
+    color: #2A7AE4; 
+}
+
+/* CONTACT */
+
+.contact {
+    padding-bottom: 16px;
+
+}
+
+.contact-logo {
+    background-image: url("../img/Logo.png");
+    width: 176px;
+    height: 50px;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.contact-contain__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+}
+
+.contact-list-container__item {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+    padding: 8px;
+}
+
+.contact-list-container__item a {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff ;
+}
+
+footer p {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+    padding: 32px;
 }
