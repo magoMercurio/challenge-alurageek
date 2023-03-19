@@ -285,10 +285,14 @@ background-color: #ffffff;
 .card-img-contain {
     width: 156px;
     height: 174px;
-    background-image: url("../img/products/unsplash_0POwK6iAiRQ.png");
     background-position: center ;
     background-repeat:no-repeat;
     background-size: cover;
+}
+
+.card-img-contain__product {
+    width: 156px;
+    height: 174px;
 }
 
 .card-productName {
@@ -380,4 +384,18 @@ footer p {
     text-align: center;
     color: #464646;
     padding: 32px;
+}
+
+/* 
+@media (min-width: 700px) {
+
+
+}
+
+@media (min-width: 1000px) {
+
+} */
+
+@media (min-width: 1440px) {
+
 }

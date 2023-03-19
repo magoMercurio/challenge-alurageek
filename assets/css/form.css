@@ -1,6 +1,16 @@
 .formulario {
     margin-top: 2rem;
   }
+
+  .formulario p {
+    font-family: var(--font-family-body);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 19px;
+    color: #464646;
+    padding-bottom: 8px;
+  }
   
   .form__label {
     font-size: var(--font-size-form-fieldset);
@@ -148,7 +158,6 @@
     box-sizing: border-box;
     color: var(--contrast-light-color);
     font-size: var(--font-size-button);
-    align-self: center;
     text-align: center;
   }
   
