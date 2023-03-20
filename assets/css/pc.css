@@ -132,3 +132,12 @@ h2{
   height: 51px;
   padding: 16px;
 }
+
+@media (min-width: 1440px) {
+
+  .container {
+    align-items: center;
+
+    }
+  }
+}
