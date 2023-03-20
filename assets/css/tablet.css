@@ -39,6 +39,8 @@ font-size: 1.4rem;
 
 .header-banner-container {
   padding: 32px;
+  padding-bottom: 0px;
+
 }
 
 .header-banner-contain h1 {
@@ -48,8 +50,8 @@ font-size: 1.4rem;
 
 .header-banner-contain p {
   font-weight: 400;
-font-size: 2.2rem;
-line-height: 26px;
+  font-size: 2.2rem;
+  line-height: 26px;
 }
 
 .main {

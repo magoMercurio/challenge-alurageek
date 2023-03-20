@@ -183,3 +183,11 @@
   .simple-button--edit {
     color: var(--success-color);
   }
+
+  .input-container #name {
+    height: 56px;
+  }
+  
+  .input-container #email {
+    height: 82px;
+  }
