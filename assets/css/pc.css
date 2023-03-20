@@ -55,11 +55,15 @@ h2{
 
 .main {
   margin-left: 100px;
-  margin-right: 100px;
+ 
 }
 
 .container {
   padding-top: 64px;
+}
+
+.product-contain {
+  height: 336px;
 }
 
 .product-header__link a {
@@ -67,16 +71,19 @@ h2{
 }
 
 .card {
-  width: 176px;
-  height: 252px;
+  width: 130px;
+  height: 128px;
+
 }
 
 .card-img-contain {
-  width: 176px;
+  width: 130px;
 }
 
 .card-img-contain__product {
-  width: 176px;
+  width: 130px;
+  height: 128px;
+
 }
 
 .card-productName {
