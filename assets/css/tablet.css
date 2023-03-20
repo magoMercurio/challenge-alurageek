@@ -116,3 +116,28 @@ font-size: 1.4rem;
   text-align: left;
   margin: 0;
 }
+
+.login-container {
+    
+  align-items: center;
+  margin-top: 0;
+}
+.card__title {
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  color: #464646;
+  padding-bottom: 16px;
+}
+
+.card-container {
+  width: 275px;
+  height: 275px;
+}
+
+.btn-login-container {
+  display: flex;
+  justify-content: center;
+}

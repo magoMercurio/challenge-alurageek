@@ -1,0 +1,111 @@
+
+a {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header-container {
+  justify-content: flex-start;
+}
+
+.header-logo {
+  margin-right: 32px;
+}
+
+.header-contain {
+  flex-direction: row;
+  width:fit-content;
+}
+
+.input-search {
+  display: flex;
+  width: 272px;
+}
+
+.searchBar input::placeholder {
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 16px;
+  color: #A2A2A2;
+  padding-left: 15px;
+}
+
+.input-label-search img {
+  right: 80px;
+}
+
+/* MAIN */
+
+main {
+  height: 295px;
+}
+
+.login-container {
+  align-items: center;
+  margin-top: 0;
+  padding: 32px;
+}
+.card__title {
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  color: #464646;
+  padding-bottom: 16px;
+}
+
+.card-container {
+  display: flex;
+  width: 275px;
+  height: 189px;
+}
+
+.card-container .formulario {
+  margin-left: 0;
+}
+
+.btn-login-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* FOOTER */
+
+.contact {
+  height: 364px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px;
+}
+
+.contact-contain {
+  display: flex;
+  flex-direction: column;
+  width: 254px;
+}
+
+.contact-list-container__item {
+  text-align: left;
+}
+
+
+.formulario {
+  margin-top: 0;
+  margin-left: 40px;
+  width: 434px;
+}
+
+.formulario p {
+  text-align: left;
+  margin: 0;
+}
+

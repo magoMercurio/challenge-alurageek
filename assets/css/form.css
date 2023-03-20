@@ -192,6 +192,14 @@
   height: 56px;
 }
 
+.input-container #email {
+  height: 56px;
+}
+
+.input-container #password {
+  height: 56px;
+}
+
 .input-container #mensaje {
   height: 82px;
 }

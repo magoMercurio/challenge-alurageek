@@ -1,0 +1,36 @@
+
+
+a {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 19px;
+}
+
+h2{
+  font-size: 3.2rem;
+  line-height: 38px;
+}
+
+/* HEADER */
+
+.header-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-logo {
+  min-width: 176px;
+  width: 176px;
+  margin-right: 16px;
+}
+
+.input-search {
+  width: 393px;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
