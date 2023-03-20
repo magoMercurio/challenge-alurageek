@@ -166,6 +166,10 @@
     font-size: var(--font-size-button);
     text-align: center;
   }
+
+  .button:hover {
+    cursor: pointer;
+  }
   
   .simple-button {
     border: none;
@@ -185,9 +189,9 @@
   }
 
   .input-container #name {
-    height: 56px;
-  }
-  
-  .input-container #email {
-    height: 82px;
-  }
+  height: 56px;
+}
+
+.input-container #mensaje {
+  height: 82px;
+}
