@@ -32,5 +32,34 @@ h2{
 
 /* MAIN */
 
+.card__title {
+  font-size: 1.8rem;
+  line-height: 21px;
+}
+
+.card-container {
+  width: 423px;
+  height: 291px;
+}
+
+  .input-container #email {
+    height: 63px;
+  }
+
+  .input-container #password {
+    height: 63px;
+  }
+
+  .btn-login-container .button {
+    width: 100%;
+    max-width: 423px;
+  }
 
 /* FOOTER */
+
+@media (min-width: 1440px) {
+
+  .contact-container {
+    justify-content: center;
+  }
+}
