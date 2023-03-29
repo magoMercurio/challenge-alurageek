@@ -1,0 +1,79 @@
+a {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header-container {
+  justify-content: flex-start;
+}
+
+.header-logo {
+  margin-right: 32px;
+}
+
+.header-contain {
+  flex-direction: row;
+  width:fit-content;
+}
+
+.input-search {
+  display: flex;
+  width: 272px;
+}
+
+.searchBar input::placeholder {
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 16px;
+  color: #A2A2A2;
+  padding-left: 15px;
+}
+
+.input-label-search img {
+  right: 80px;
+}
+
+/* MAIN */
+
+.main {
+  margin: 0 32px 0 32px;
+}
+
+.products-header {
+  flex-direction: row;
+
+}
+
+/* FOOTER */
+
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.contact-contain {
+  display: flex;
+  flex-direction: column;
+  width: 254px;
+}
+
+.contact-list-container__item {
+  text-align: left;
+}
+
+
+.formulario {
+  margin-top: 0;
+  margin-left: 40px;
+  width: 434px;
+}
+
+.formulario p {
+  text-align: left;
+  margin: 0;
+}

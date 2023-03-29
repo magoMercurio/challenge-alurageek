@@ -132,92 +132,6 @@ background-color: #ffffff;
     margin-left: 40px;
 }
 
-
-.btn-login a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 10px;
-    border: 1px solid #2A7AE4;
-    background-color: #ffffff;
-    width: 133px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 600;
-    color: #2A7AE4;
-    line-height: 16px;
-    font-family: var(--font-family-body);
-    
-}
-
-.header-banner {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../img/Hero.png");
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 192px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-content: flex-start;
-    padding: 16px 16px;
-    gap: 16px;
-}
-
-.header-banner-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 8px;
-}
-
-.header-banner-contain h1 {
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 26px;
-    color: #ffffff;
-    font-family: var(--font-family-body);
-}
-
-.header-banner-contain p {
-    font-weight: 600;
-    font-size: 1.4rem;
-    font-style: normal;
-    line-height: 16px;
-    color: #ffffff;
-    font-family: var(--font-family-body);
-    padding-top: 10px;
-}
-
-.btn-consolas {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 10px;
-    background-color: #2A7AE4;
-    width: 119px;
-    height: 40px;
-    margin: 16px;
-    text-decoration: none;
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 16px;
-    color: #ffffff;
-    font-family: var(--font-family-body);
-
-}
-.btn-consolas:visited {
-    color:#ffffff;
-}
-
 /* ----------MAIN----------- */
 
 .main {
@@ -231,6 +145,7 @@ background-color: #ffffff;
     display: flex;
     flex-direction: column;
     padding-top: 32px;
+    padding-bottom: 16px;
 }
 
 .product-contain{
@@ -275,13 +190,7 @@ background-color: #ffffff;
 }
 
 
-.trash-icon {
-    display: none;
-}
 
-.edit-icon {
-    display: none;
-}
 
 .product-cards-container {
     display: flex;
@@ -291,8 +200,6 @@ background-color: #ffffff;
     padding-top: 16px;
     padding-bottom: 16px;
 }
-
-
 
 .card {
     width: 156px;
@@ -317,6 +224,26 @@ background-color: #ffffff;
     height: 174px;
 }
 
+.icons {
+  display: flex;
+  position: relative;
+  width: 64px;
+  height: 24px;
+  right: -83px;
+  top: -165px;
+  gap: 16px;
+}
+
+.trash-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.edit-icon {
+  width: 24px;
+  height: 24px;
+}
+
 .card-productName {
     font-family: var(--font-family-body);
     font-style: normal;
@@ -335,12 +262,13 @@ background-color: #ffffff;
     color: #464646;
 }
 
-.card-link a {
-    font-family: var(--font-family-body);
-    font-style: normal;
-    font-size: 1.4rem;
-    line-height: 16px;
-    color: #2A7AE4; 
+.id {
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 16px;
+color: #464646;
 }
 
 /* FOOTER */
@@ -355,11 +283,8 @@ footer {
 /* CONTACT */
 
 .contact {
-
-    background: #EAF2FD;
-    width: 100%;
-
-
+  background: #EAF2FD;
+  width: 100%;
 }
 
 .contact-logo {
@@ -401,8 +326,6 @@ footer {
     text-align: center;
     color: #464646;
 }
-
-
 
 footer .footer-piePagina {
     font-family: var(--font-family-body);

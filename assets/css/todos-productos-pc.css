@@ -1,0 +1,66 @@
+
+
+a {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 19px;
+}
+
+h2{
+  font-size: 3.2rem;
+  line-height: 38px;
+}
+
+/* HEADER */
+
+.header-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-logo {
+  min-width: 176px;
+  width: 176px;
+  margin-right: 16px;
+}
+
+.input-search {
+  width: 393px;
+}
+
+.main {
+  margin-left: 100px;
+}
+
+.container {
+  padding-top: 64px;
+}
+
+.contact-contain {
+  flex-direction: row;
+  width: 50%;
+}
+
+.contact-contain__list {
+  height: 234px;
+}
+
+.contact-list-container__item {
+  line-height: 24px;
+}
+
+.formulario {
+  margin-top: -10px;
+  margin-left: 40px;
+  width: 50%;
+}
+
+.button {
+  width: 144px;
+  height: 51px;
+  padding: 16px;
+}
+
+
