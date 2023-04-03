@@ -102,7 +102,6 @@ background-color: #ffffff;
 }
 
 .header-logo {
-  background-image: url("../img/Logo.png");
   width: 150px;
   background-position: center;
   background-size:contain;
