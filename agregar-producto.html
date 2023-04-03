@@ -28,7 +28,7 @@
                 <label class="input-label-search" for="search"> <img src="./assets/img/icons/Icone.png" alt=""></label>
             </div>  
             <div class="header-btn btn-menuAdmin">
-                <a href="#">Menú Administrador</a>
+                <a href="./productos.html">Menú Administrador</a>
             </div> 
         </div>
     </div>
@@ -39,32 +39,32 @@
             <h2 class="card__title">Agregar nuevo producto</h2>
             <form action="./agregar-producto.html" class="formulario">
               <div class="input-container">
-                <input name="url" id="url" class="input" type="url" placeholder="URL de la imagen" required data-tipo="url">
-                <label class="input-label" for="name">URL de la imagen</label>
+                <input name="cargar" id="cargar" class="input" type="file" accept="image/*" placeholder="Cargar la imagen del producto" required data-tipo="cargar">
+                <label class="input-label" for="name">Cargar la imagen del producto</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
-                <input name="categoria" id="categoria" class="input" type="text" placeholder="Nombre del producto" required data-tipo="categoria">
+                <input name="categoria" id="categoria" class="input" type="text" placeholder="Nombre del producto" maxlength="20" required data-tipo="categoria">
                 <label class="input-label" for="categoria">Categoria</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
-                <input name="producto-name" id="producto-name" class="input" type="text" placeholder="nombre del producto" required data-tipo="producto-name">
+                <input name="producto-name" id="producto-name" class="input" type="text" placeholder="nombre del producto" maxlength="20" required data-tipo="producto-name">
                 <label class="input-label" for="categoria">Nombre del producto</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
-                <input name="producto-precio" id="producto-precio" class="input" type="number" placeholder="precio del producto" required data-tipo="producto-precio">
+                <input name="producto-precio" id="producto-precio" class="input" type="number" placeholder="precio del producto" maxlength="20" required data-tipo="producto-precio">
                 <label class="input-label" for="categoria">Precio del producto</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
-                <input name="descripcion" id="descripcion" class="input" type="text" placeholder="Descripción del producto" required data-tipo="categoria">
+                <input name="descripcion" id="descripcion" class="input" type="text" placeholder="Descripción del producto" maxlength="150" required data-tipo="categoria">
                 <label class="input-label" for="categoria">Descripción del producto</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="btn-aproducto-container">
-                <a class="btn-agregar">Agregar Producto</a>
+                <button class="btn-agregar">Agregar Producto</button>
               </div>
             
             </form>
