@@ -33,15 +33,17 @@
         </div>
     </div>
 </header>
-    <main>
-        <section class="aproducto-container container">
-          <div class="card-container">
-            <h2 class="card__title">Agregar nuevo producto</h2>
-            <form action="./agregar-producto.html" class="formulario">
-              <div class="input-container">
-                <input name="cargar" id="cargar" class="input" type="file" accept="image/*" placeholder="Cargar la imagen del producto" required data-tipo="cargar">
-                <label class="input-label" for="name">Cargar la imagen del producto</label>
-                <span class="input-message-error">Este campo no es valido</span>
+  <main>
+    <section class="aproducto-container container">
+      <div class="card-container">
+        <h2 class="card__title">Agregar nuevo producto</h2>
+        <form action="./registro-completado.html" class="formulario">
+          <div class="input-file-container">  
+            <input class="input-file" id="my-file" type="file" required accept="image/*">
+            <label tabindex="0" for="my-file" class="input-file-trigger">Agregar Archivo...</label>
+          <p class="file-return"></p>
+          <span class="input-message-error">Este campo no es valido</span>
+              <p class="file-return"></p>
               </div>
               <div class="input-container">
                 <input name="categoria" id="categoria" class="input" type="text" placeholder="Nombre del producto" maxlength="20" required data-tipo="categoria">
@@ -68,9 +70,8 @@
               </div>
             
             </form>
-          </div>
-        </section>
-
+      </div>
+    </section>
     </main>
     <footer>
         <section class="contact container" id="contact">
@@ -118,5 +119,6 @@
         
     </footer>
     <script  src="./js/app.js" type="module"></script>
+    <script src="./js/aproduct.js"></script>
 </body>
 </html>
