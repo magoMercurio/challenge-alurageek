@@ -3,14 +3,14 @@
     {
       "categoria": "star wars",
       "nombre": "stormtrooper",
-      "precio": "150",
+      "precio": 150,
       "descripcion": "una breve descripcion del producto.",
       "id": "365cfc2d-422a-4520-baeb-609603f3bf74"
     },
     {
       "categoria": "star wars",
       "nombre": "babyyoda",
-      "precio": "200",
+      "precio": 200,
       "descripcion": "esta mal decirle baby yoda al baby yoda.",
       "id": "365cfc2d-422a-4520-baeb-609603f3bf74"
     }
