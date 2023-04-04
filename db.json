@@ -1,25 +1,20 @@
 {
   "productos": [
     {
-      "categoria": "star wars",
-      "nombre": "stormtrooper",
-      "precio": 150,
-      "descripcion": "una breve descripcion del producto.",
-      "id": "365cfc2d-422a-4520-baeb-609603f3bf74"
+      "imgurl": "./assets/img/products/unsplash_Zjn4dT993-g.png",
+      "categoria": "starwars",
+      "nombre": "un mono",
+      "precio": "150",
+      "descripcion": "es un mono",
+      "id": "ZGJO6Cu"
     },
     {
-      "categoria": "star wars",
-      "nombre": "babyyoda",
-      "precio": 200,
-      "descripcion": "esta mal decirle baby yoda al baby yoda.",
-      "id": "365cfc2d-422a-4520-baeb-609603f3bf74"
-    },
-    {
-      "categoria": "consolas",
-      "nombre": "celular gamer",
-      "precio": "123",
-      "descripcion": "es una prueba",
-      "id": "53711f9f-badb-44fb-8835-4934b5b1f9ab"
+      "imgurl": "./assets/img/products/unsplash_k-xYhI3-gJM.png\"",
+      "categoria": "starwars",
+      "nombre": "una nava",
+      "precio": "1500",
+      "descripcion": "es una nave",
+      "id": "3I6NEzW"
     }
   ]
 }

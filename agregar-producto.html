@@ -28,7 +28,7 @@
                 <label class="input-label-search" for="search"> <img src="./assets/img/icons/Icone.png" alt=""></label>
             </div>  
             <div class="header-btn btn-menuAdmin">
-                <a href="./productos.html">Menú Administrador</a>
+                <a href="./menu-admin.html">Menú Administrador</a>
             </div> 
         </div>
     </div>
@@ -37,13 +37,18 @@
     <section class="aproducto-container container">
       <div class="card-container">
         <h2 class="card__title">Agregar nuevo producto</h2>
-        <form class="formulario-agregar" data-form>
-          <div class="input-file-container">  
+        <form class="formulario-agregar"  data-form>
+          <!-- <div class="input-file-container">  
             <input class="input-file" id="my-file" type="file" required accept="image/*" data-file>
             <label tabindex="0" for="my-file" class="input-file-trigger">Agregar Archivo...</label>
           <p class="file-return"></p>
           <span class="input-message-error">Este campo no es valido</span>
               <p class="file-return"></p>
+              </div> -->
+              <div class="input-container">
+                <input name="imgurl" id="imgurl" class="input" type="text" placeholder="url de la imagen" required data-tipo="imgurl" data-imgurl>
+                <label class="input-label" for="categoria">Url de la imagen</label>
+                <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
                 <input name="categoria" id="categoria" class="input" type="text" placeholder="Nombre del producto" maxlength="20" required data-tipo="categoria" data-categoria>
