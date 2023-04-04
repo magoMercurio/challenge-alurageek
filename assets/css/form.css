@@ -206,6 +206,22 @@
 
 /* FORMULARIO AGREGAR PRODUCTO */
 
+
+.formulario-agregar {
+  margin-top: 2rem;
+}
+
+.formulario-agregar p {
+  font-family: var(--font-family-body);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  color: #464646;
+  padding-bottom: 8px;
+}
+
+
 .input-file-container {
   position: relative;
   width: 225px;

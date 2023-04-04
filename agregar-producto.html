@@ -37,36 +37,36 @@
     <section class="aproducto-container container">
       <div class="card-container">
         <h2 class="card__title">Agregar nuevo producto</h2>
-        <form action="./registro-completado.html" class="formulario">
+        <form class="formulario-agregar" data-form>
           <div class="input-file-container">  
-            <input class="input-file" id="my-file" type="file" required accept="image/*">
+            <input class="input-file" id="my-file" type="file" required accept="image/*" data-file>
             <label tabindex="0" for="my-file" class="input-file-trigger">Agregar Archivo...</label>
           <p class="file-return"></p>
           <span class="input-message-error">Este campo no es valido</span>
               <p class="file-return"></p>
               </div>
               <div class="input-container">
-                <input name="categoria" id="categoria" class="input" type="text" placeholder="Nombre del producto" maxlength="20" required data-tipo="categoria">
+                <input name="categoria" id="categoria" class="input" type="text" placeholder="Nombre del producto" maxlength="20" required data-tipo="categoria" data-categoria>
                 <label class="input-label" for="categoria">Categoria</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
-                <input name="producto-name" id="producto-name" class="input" type="text" placeholder="nombre del producto" maxlength="20" required data-tipo="producto-name">
+                <input name="producto-name" id="producto-name" class="input" type="text" placeholder="nombre del producto" maxlength="20" required data-tipo="producto-name" data-nombre>
                 <label class="input-label" for="categoria">Nombre del producto</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
-                <input name="producto-precio" id="producto-precio" class="input" type="number" placeholder="precio del producto" maxlength="20" required data-tipo="producto-precio">
+                <input name="producto-precio" id="producto-precio" class="input" type="number" placeholder="precio del producto" maxlength="20" required data-tipo="producto-precio" data-precio>
                 <label class="input-label" for="categoria">Precio del producto</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="input-container">
-                <input name="descripcion" id="descripcion" class="input" type="text" placeholder="Descripción del producto" maxlength="150" required data-tipo="categoria">
+                <input name="descripcion" id="descripcion" class="input" type="text" placeholder="Descripción del producto" maxlength="150" required data-tipo="descripcion" data-descripcion>
                 <label class="input-label" for="categoria">Descripción del producto</label>
                 <span class="input-message-error">Este campo no es valido</span>
               </div>
               <div class="btn-aproducto-container">
-                <button class="btn-agregar">Agregar Producto</button>
+                <button type="submit" class="btn-agregar">Agregar Producto</button>
               </div>
             
             </form>
@@ -121,5 +121,6 @@
     <script  src="./js/app.js" type="module"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/aproduct.js"></script>
+    <script src="./controllers/registro-controller.js" type="module"></script>
 </body>
 </html>

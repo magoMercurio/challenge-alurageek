@@ -1,20 +1,20 @@
-document.querySelector("html").classList.add('js');
+document.querySelector('html').classList.add('js')
 
-var fileInput = document.querySelector( ".input-file" ),  
+const fileInput = document.querySelector('.input-file')
+const button = document.querySelector('.input-file-trigger')
+const theReturn = document.querySelector('.file-return')
 
-button = document.querySelector( ".input-file-trigger" ),
-
-the_return = document.querySelector(".file-return");
-
-button.addEventListener( "keydown", function( event ) {  
-    if ( event.keyCode == 13 || event.keyCode == 32 ) {  
-        fileInput.focus();  
-    }  
-});
-button.addEventListener( "click", function( event ) {
-    fileInput.focus();
-    return false;
-});  
-fileInput.addEventListener( "change", function( event ) {  
-    the_return.innerHTML = this.value;  
-});  
+button.addEventListener('keydown', function (event) {
+  if (event.keyCode === 13 || event.keyCode === 32) {
+    fileInput.focus()
+  }
+})
+// eslint-disable-next-line no-unused-vars
+button.addEventListener('click', function (event) {
+  fileInput.focus()
+  return false
+})
+// eslint-disable-next-line no-unused-vars
+fileInput.addEventListener('change', function (event) {
+  theReturn.innerHTML = this.value
+})

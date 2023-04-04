@@ -13,6 +13,13 @@
       "precio": 200,
       "descripcion": "esta mal decirle baby yoda al baby yoda.",
       "id": "365cfc2d-422a-4520-baeb-609603f3bf74"
+    },
+    {
+      "categoria": "consolas",
+      "nombre": "celular gamer",
+      "precio": "123",
+      "descripcion": "es una prueba",
+      "id": "53711f9f-badb-44fb-8835-4934b5b1f9ab"
     }
   ]
 }
