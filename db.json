@@ -15,6 +15,22 @@
       "precio": "1500",
       "descripcion": "es una nave",
       "id": "3I6NEzW"
+    },
+    {
+      "imgurl": "./assets/img/products/unsplash_Zjn4dT993-g.png",
+      "categoria": "starwars",
+      "nombre": "as",
+      "precio": "444",
+      "descripcion": "rrtr",
+      "id": "g7R5D6i"
+    },
+    {
+      "imgurl": "./assets/img/products/unsplash_Zjn4dT993-g.png",
+      "categoria": "consolas",
+      "nombre": "as",
+      "precio": "1222",
+      "descripcion": "es una prueba",
+      "id": "Fsj-f_i"
     }
   ]
 }

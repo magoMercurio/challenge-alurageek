@@ -35,6 +35,26 @@ const mensajesDeError = {
   password: {
     valueMissing: 'Este campo no puede estar vacio',
     patternMismatch: 'Al menos 6 caracteres maximo 12, debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales'
+  },
+  categoria: {
+    valueMissing: 'Este campo no puede estar vacio',
+    typeMismatch: 'Escribe algo que quieras decirme.'
+  },
+  productonombre: {
+    valueMissing: 'Este campo no puede estar vacio',
+    typeMismatch: 'Escribe algo que quieras decirme.'
+  },
+  imgurl: {
+    valueMissing: 'Este campo no puede estar vacio',
+    typeMismatch: 'Escribe algo que quieras decirme.'
+  },
+  productoprecio: {
+    valueMissing: 'Este campo no puede estar vacio',
+    typeMismatch: 'Escribe algo que quieras decirme.'
+  },
+  descripcion: {
+    valueMissing: 'Este campo no puede estar vacio',
+    typeMismatch: 'Escribe algo que quieras decirme.'
   }
 }
 
